@@ -1,2 +1,2 @@
 # actionproject
-update 
+update readme
