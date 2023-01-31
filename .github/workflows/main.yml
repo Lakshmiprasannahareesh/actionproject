@@ -1,0 +1,18 @@
+name: CI
+on:
+  push: 
+    branches: ["main"]
+  Workflow_Dispatch:
+  
+jobs:
+  build:
+    runs-on: ubantu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Greet user
+        run: echo welcome to Actions
+        
+      
+  
+  
+  
